@@ -12,7 +12,7 @@ ln -s ~/.dotfiles/.brewfile ~/.brewfile
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
-tap rcmdnk/file
+brew tap rcmdnk/file
 brew brew-file
 brew file install
 
@@ -21,4 +21,4 @@ cd ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 git clone https://github.com/joedynamite/base16-xcode Base16
 ln -s Base16/* ./
 
-./osx_preferences.sh
+./~/.dotfiles/osx_preferences.sh
