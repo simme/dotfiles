@@ -1,0 +1,51 @@
+
+# tap repositories and their packages
+
+tap caskroom/cask
+
+tap homebrew/core
+brew sqlite
+brew swiftgen
+brew fish
+brew tmux
+brew vim
+brew xz
+brew swiftlint
+brew gdbm
+brew pcre
+brew git
+brew cmake
+brew carthage
+brew hugo
+brew perl
+brew node
+brew mas
+brew python
+brew the_silver_searcher
+brew libevent
+brew readline
+brew pcre2
+brew ruby
+brew libyaml
+brew openssl
+brew icu4c
+brew reattach-to-user-namespace
+brew sourcery
+brew pkg-config
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 443987910 1Password (6.8.1)
+appstore 1055511498 Day One (2.4.1)
+appstore 775737590 iA Writer (4.0.4)
+appstore 477163052 Linguan (1.4.2)
+appstore 1160374471 PiPifier (1.2.4)
+appstore 407963104 Pixelmator (3.6)
+appstore 880001334 Reeder (3.0.5)
+appstore 803453959 Slack (2.7.1)
+appstore 413965349 Soulver (2.6.4)
+appstore 557168941 Tweetbot (2.5.1)
+appstore 970502923 Typeeto (1.4.3)
+appstore 497799835 Xcode (8.3.3)

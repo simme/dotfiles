@@ -1,0 +1,11 @@
+[user]
+name = Simon Ljungberg
+email = hi@iamsim.me
+[core]
+fileMode = false
+editor = /usr/bin/vim
+[difftool]
+prompt = false
+[mergetool]
+prompt = false
+
