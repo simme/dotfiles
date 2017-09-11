@@ -57,5 +57,8 @@ defaults write com.apple.dock use-new-list-stack -bool YES
 # Disable "paste with style"
 defaults write .GlobalPreferences -dict-add NSUserKeyEquivalents "Paste and Match Style" -string "@v"
 
+# Set XCode theme
+defaults write com.apple.dt.xcode XCFontAndColorCurrentTheme -string "base16-eighties.dark.xccolortheme"
+
 # Kill affected applications
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" >/dev/null 2>&1; done

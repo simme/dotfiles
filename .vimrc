@@ -11,7 +11,8 @@ call vundle#begin()
 
 Bundle 'gmarik/vundle'
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'chriskempson/base16-vim'
+Bundle 'christoomey/base16-vim'
+Bundle 'simme/vim-base16-colors'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " Show git status in line-number gutter.

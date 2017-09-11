@@ -40,7 +40,6 @@ brew brew-file
 appstore 443987910 1Password (6.8.1)
 appstore 1055511498 Day One (2.4.1)
 appstore 775737590 iA Writer (4.0.4)
-appstore 477163052 Linguan (1.4.2)
 appstore 1160374471 PiPifier (1.2.4)
 appstore 407963104 Pixelmator (3.6)
 appstore 880001334 Reeder (3.0.5)
@@ -49,3 +48,29 @@ appstore 413965349 Soulver (2.6.4)
 appstore 557168941 Tweetbot (2.5.1)
 appstore 970502923 Typeeto (1.4.3)
 appstore 497799835 Xcode (8.3.3)
+
+# Cask packages
+cask alfred
+cask atom
+cask battle-net
+cask backblaze
+cask caprine
+cask cyberduck
+cask dash
+cask fantastical
+cask firefox
+cask gitup
+cask google-chrome
+cask hstracker
+cask little-snitch
+cask marked
+cask micro-snitch
+cask paintcode
+cask paw
+cask sketch
+cask skype
+cask spotify
+cask superduper
+cask vlc
+cask zeplin
+cask iterm
