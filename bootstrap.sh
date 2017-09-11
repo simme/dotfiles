@@ -6,6 +6,9 @@
 # # Download dotfiles
 git clone git@github.com:simme/dotfiles.git ~/.dotfiles
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.config ~/.config
 ln -s ~/.dotfiles/.brewfile ~/.brewfile
