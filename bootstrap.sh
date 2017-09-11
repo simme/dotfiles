@@ -13,7 +13,7 @@ ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 brew tap rcmdnk/file
-brew brew-file
+brew install brew-file
 brew file install
 
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
