@@ -42,6 +42,9 @@ Bundle 'PProvost/vim-markdown-jekyll'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'chrisbra/Colorizer'
+Plugin 'othree/html5.vim'
+Plugin 'StanAngeloff/php.vim'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
