@@ -2,7 +2,7 @@
 set nocompatible
 filetype off
 set shell=/bin/bash	" Breaks with fish...
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " ----------------------------------------------------------------------
@@ -11,7 +11,6 @@ call vundle#begin()
 
 Bundle 'gmarik/vundle'
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'christoomey/base16-vim'
 Bundle 'simme/vim-base16-colors'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -74,9 +73,8 @@ set ttyfast                         " Set fast TTY
 set laststatus=2                    " Always show status line
 set ch=2                            " Command line height 2
 set formatoptions=qrn1              " Autoformat options
-set colorcolumn=120                  " Show 120 column mark
+set colorcolumn=120                 " Show 120 column mark
 set hidden                          " Enable background buffers
-syntax enable                       " Enable syntax coloring
 set noshowmode                      " Hide mode, shown in Powerline
 
 " Turn off swap files
