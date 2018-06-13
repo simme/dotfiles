@@ -25,3 +25,4 @@ git clone https://github.com/joedynamite/base16-xcode Base16
 ln -s Base16/* ./
 
 ./~/.dotfiles/osx_preferences.sh
+chsh -s `which fish`
